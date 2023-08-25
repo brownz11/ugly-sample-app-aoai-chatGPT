@@ -221,7 +221,7 @@ html{
     max-width:800px
 }
 ._chatMessageErrorContent_ce6eq_125{
-    font-family:Segoe UI;
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
     font-style:normal;
     font-weight:400;
     font-size:24px;
@@ -366,6 +366,7 @@ a{
     border-radius:5.419px
 }
 ._answerText_8d9c8_12{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-style:normal;
     font-weight:400;
     font-size:24px;
@@ -521,6 +522,7 @@ sup{
     border-radius:8px
 }
 ._questionInputTextArea_pe9s7_13{
+    background:#15ff92;
     width:100%;
     line-height:40px;
     margin:10px 12px
