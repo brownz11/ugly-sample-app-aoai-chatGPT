@@ -83,8 +83,18 @@ html{
     line-height:28px;
     display:flex;
     align-items:flex-end;
-    color:#242424
+    color:#242424;
+    animation: wiggle 2.5s infinite;
 }
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
 ._headerIcon_19t1l_34{
     height:32px;
     width:32px;
@@ -576,14 +586,27 @@ sup{
 }
 ._questionInputSendButton_pe9s7_22{
     width:24px;
-    height:23px
+    height:23px;
+    animation: spin-animation 5s infinite;
 }
 ._questionInputSendButtonDisabled_pe9s7_33{
     width:24px;
     height:23px;
     background:none;
-    color:#424242
+    color:#424242;
+    animation: spin-animation 5s infinite;
+    display: inline-block;
+  }
+  
+@keyframes spin-animation {
+0% {
+    transform: rotate(0deg);
 }
+    100% {
+    transform: rotate(359deg);
+}
+}
+
 ._questionInputBottomBorder_pe9s7_41{
     position:absolute;
     width:100%;
